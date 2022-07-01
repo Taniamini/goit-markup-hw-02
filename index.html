@@ -9,18 +9,18 @@
     <!-- Header secthion -->
     <header class="header">
       <nav class="header-nav">
-        <a class="name" href="/">WebStudio</a>
+        <a class="name-link" href="/">WebStudio</a>
         <ul class="header-list">
           <li class="header-item"><a class="header-link" href="index.html">Студия</a></li>
           <li class="header-item"><a class="header-link" href="portfolio.html">Портфолио</a></li>
           <li class="header-item"><a class="header-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="header-contact">
-        <li class="header-contact-item">
+      <ul class="header-contacts">
+        <li class="header-contacts-item">
           <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="header-contact-item">
+        <li class="header-contacts-item">
           <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
@@ -30,52 +30,61 @@
       <!-- Hero section -->
       <section class="hero">
         <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <button class="hero-btn" type="button">Заказать услугу</button>
       </section>
-      <section>
-        <h2 hidden>Особенности WebStudio</h2>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+      <!-- About section -->
+      <section class="about">
+        <h2 class="section-title" hidden>Особенности WebStudio</h2>
+        <ul class="about-list">
+          <li class="about-item">
+            <h3 class="about-title">Внимание к деталям</h3>
+            <p class="about-subtitle">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
+          <li class="about-item">
+            <h3 class="about-title">Пунктуальность</h3>
+            <p class="about-subtitle">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
+          <li class="about-item">
+            <h3 class="about-title">Планирование</h3>
+            <p class="about-subtitle">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          <li class="about-item">
+            <h3 class="about-title">Современные технологии</h3>
+            <p class="about-subtitle">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
+      <!-- Work section -->
+      <section class="work">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="work-list">
+          <li class="work-item">
             <img
+              class="work-img"
               src="./images/work/img1.jpg"
               alt="планшет с клавиатурой на рабочем столе"
               width="370"
             />
           </li>
-          <li>
+          <li class="work-item">
             <img
+              class="work-img"
               src="./images/work/img2.jpg"
               alt="составление интерфейса мобильного устройства на ноутбуке"
               width="370"
             />
           </li>
-          <li>
+          <li class="work-item">
             <img
+              class="work-img"
               src="./images/work/img3.jpg"
               alt="выбор цветовой палитры на планшете за рабочим столом"
               width="370"
@@ -83,35 +92,36 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/teams/img1.jpg" alt="" width="270" />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
+      <!-- Team section -->
+      <section class="team">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item">
+            <img class="team-img" src="./images/teams/img1.jpg" alt="" width="270" />
+            <h3 class="team-title">Игорь Демьяненко</h3>
+            <p class="team-subtitle" lang="en">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/teams/img2.jpg" alt="" width="270" />
-            <h3>Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
+          <li class="team-item">
+            <img class="team-img" src="./images/teams/img2.jpg" alt="" width="270" />
+            <h3 class="team-title">Ольга Репина</h3>
+            <p class="team-subtitle" lang="en">Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/teams/img3.jpg" alt="" width="270" />
-            <h3>Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
+          <li class="team-item">
+            <img class="team-img" src="./images/teams/img3.jpg" alt="" width="270" />
+            <h3 class="team-title">Николай Тарасов</h3>
+            <p class="team-subtitle" lang="en">Marketing</p>
           </li>
-          <li>
-            <img src="./images/teams/img4.jpg" alt="" width="270" />
-            <h3>Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
+          <li class="team-item">
+            <img class="team-img" src="./images/teams/img4.jpg" alt="" width="270" />
+            <h3 class="team-title">Михаил Ермаков</h3>
+            <p class="team-subtitle" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a class="footer-name" href="/">WebStudio</a>
+      <a class="footer-link" href="/">WebStudio</a>
       <address class="footer-address">
         г. Киев, пр-т Леси Украинки, 26
         <ul class="footer-list">
