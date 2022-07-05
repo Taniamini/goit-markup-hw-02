@@ -32,6 +32,7 @@ body {
 
 /* Header secthion */
 .nav-header-link {
+  font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -91,9 +92,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
@@ -106,7 +104,7 @@ body {
 }
 
 /* About section */
-.about.title {
+.about-title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -115,8 +113,7 @@ body {
   color: var(--main-txt-cl);
 }
 
-.about.subtitle {
-  font-weight: 400;
+.about-subtitle {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -157,7 +154,6 @@ body {
 }
 
 .team-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -205,7 +201,6 @@ body {
 }
 
 .project-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
@@ -223,6 +218,7 @@ body {
 }
 
 .footer-link {
+  font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -236,7 +232,6 @@ body {
 
 .footer-address {
   font-style: inherit;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
