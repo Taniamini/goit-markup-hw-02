@@ -71,6 +71,45 @@ body {
   color: var(--txt-cl);
 }
 
+/* Footer */
+.footer {
+  background-color: var(--bg-cl);
+}
+
+.footer-link {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--second-cl);
+}
+
+.accent {
+  color: var(--accent-txt-cl);
+}
+
+.footer-address {
+  font-style: inherit;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--second-cl);
+}
+
+.footer-item {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-item:hover,
+.footer-item:focus {
+  color: var(--accent-txt-cl);
+}
+
+/* Styles for html */
+
 /* Hero section */
 .hero {
   background-color: var(--bg-cl);
@@ -168,6 +207,8 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+/* Styles for portfolio */
+
 /* Filter list */
 .filter-btn {
   font-family: inherit;
@@ -210,41 +251,4 @@ body {
 .project-item {
   box-sizing: border-box;
   border: 1px solid var(--item-bg-cl);
-}
-
-/* Footer */
-.footer {
-  background-color: var(--bg-cl);
-}
-
-.footer-link {
-  font-family: var(--second-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: var(--second-cl);
-}
-
-.accent {
-  color: var(--accent-txt-cl);
-}
-
-.footer-address {
-  font-style: inherit;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: var(--second-cl);
-}
-
-.footer-item {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-address:hover,
-.footer-address:focus,
-.footer-item:hover,
-.footer-item:focus {
-  color: var(--accent-txt-cl);
 }
