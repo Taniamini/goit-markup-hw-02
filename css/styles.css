@@ -56,10 +56,10 @@ body {
   color: var(--accent-txt-cl);
 }
 
-.nav-item:hover,
-.nav-item:focus,
-.header-contacts-item:hover,
-.header-contacts-item:focus {
+.nav-link-current:hover,
+.nav-link-current:focus,
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--accent-txt-cl);
 }
 
@@ -102,9 +102,7 @@ body {
 }
 
 .footer-address:hover,
-.footer-address:focus,
-.footer-item:hover,
-.footer-item:focus {
+.footer-address:focus {
   color: var(--accent-txt-cl);
 }
 
