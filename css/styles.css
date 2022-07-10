@@ -35,7 +35,7 @@ body {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--header-txt-cl);
 }
@@ -47,7 +47,7 @@ body {
 .nav-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
 }
@@ -56,8 +56,8 @@ body {
   color: var(--accent-txt-cl);
 }
 
-.nav-link-current:hover,
-.nav-link-current:focus,
+.nav-link:hover,
+.nav-link:focus,
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--accent-txt-cl);
@@ -66,7 +66,7 @@ body {
 .header-contacts-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--txt-cl);
 }
@@ -80,7 +80,7 @@ body {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--second-cl);
 }
@@ -92,7 +92,7 @@ body {
 .footer-address {
   font-style: inherit;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-cl);
 }
@@ -116,7 +116,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -128,7 +128,7 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.9;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
@@ -144,7 +144,7 @@ body {
 .about-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-txt-cl);
@@ -152,7 +152,7 @@ body {
 
 .about-subtitle {
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--txt-cl);
 }
@@ -161,7 +161,7 @@ body {
 .work-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
@@ -175,7 +175,7 @@ body {
 .team-main-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
@@ -184,7 +184,7 @@ body {
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
@@ -192,7 +192,7 @@ body {
 
 .team-subtitle {
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--txt-cl);
@@ -213,7 +213,7 @@ body {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26 / 16);
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-font);
@@ -234,14 +234,14 @@ body {
 .project-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: calc(36 / 18);
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-txt-cl);
 }
 
 .project-subtitle {
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--txt-cl);
 }
